@@ -1,5 +1,5 @@
-// Set the target date to November 11th
-const targetDate = new Date('2024-11-11T00:00:00');
+// Set the target date to November 11th, 2025
+const targetDate = new Date(2025, 10, 11); // Month is 0-based, so 10 = November
 
 // Get DOM elements
 const daysElement = document.getElementById('days');
